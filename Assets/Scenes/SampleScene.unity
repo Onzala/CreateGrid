@@ -352,7 +352,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &719802818
+--- !u!1 &1119995084
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,8 +360,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 719802820}
-  - component: {fileID: 719802819}
+  - component: {fileID: 1119995086}
+  - component: {fileID: 1119995085}
   m_Layer: 0
   m_Name: GridManager
   m_TagString: Untagged
@@ -369,13 +369,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &719802819
+--- !u!114 &1119995085
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719802818}
+  m_GameObject: {fileID: 1119995084}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9b27bdfc7d53a44380c8307346dd1e0, type: 3}
@@ -383,17 +383,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _width: 16
   _height: 9
-  _tilePrefab: {fileID: 412226173369807872, guid: 175702294db9b204abc7275c6074057b, type: 3}
+  _tilePrefab: {fileID: 2495684966548963061, guid: 175702294db9b204abc7275c6074057b, type: 3}
   _cam: {fileID: 519420032}
---- !u!4 &719802820
+--- !u!4 &1119995086
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719802818}
+  m_GameObject: {fileID: 1119995084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.6227647, y: 5.004327, z: -0.20965856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
